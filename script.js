@@ -1,6 +1,6 @@
 //your code here
 function calculateTotal() {
-  const prices = document.querySelectorAll('[data-ns-test="prices"]');
+  const prices = document.querySelectorAll('[data-ns-test="price"]');
   let total = 0;
   prices.forEach(price => {
     total += parseFloat(price.textContent);
