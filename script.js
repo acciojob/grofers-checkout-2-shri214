@@ -13,7 +13,7 @@ function calculateTotal() {
 calculateTotal();
 
 // add an event listener to recalculate the total whenever a price is changed
-const prices = document.querySelectorAll('[data-ns-test="price"]');
-prices.forEach(price => {
-  price.addEventListener('input', calculateTotal);
-});
+// const prices = document.querySelectorAll('[data-ns-test="price"]');
+// prices.forEach(price => {
+//   price.addEventListener('input', calculateTotal);
+// });
